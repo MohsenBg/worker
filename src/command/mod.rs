@@ -58,10 +58,10 @@ pub fn git_push(username: &str, password: &str) -> Result<String, String> {
     let output = Command::new("git")
         .arg("push")
         .arg("-u")
-        .arg(format!(
-            "https:{}:{}//github.com/MohsenBg/worker.git",
-            username, password
-        ))
+        .env(
+            "GIT_SSH_COMMAND",
+            format!("ssh -o BatchMode=yes -o Passphrase={}", password),
+        )
         .output()
         .expect("Failed to execute command");
 
