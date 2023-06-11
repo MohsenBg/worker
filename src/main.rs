@@ -37,7 +37,10 @@ fn main() {
         Err(err) => panic!("{} Error code: {}", err, ExitCode::GitAddFailed as i32),
     }
 
-    match command::git_commit(format!("File '{:?}' has been created.", file.file_name())) {
+    match command::git_commit(format!(
+        "File '{:?}' has been created.",
+        file.file_name().unwrap()
+    )) {
         Ok(msg) => println!("{}", msg),
         Err(err) => panic!("{} Error code: {}", err, ExitCode::GitAddFailed as i32),
     }
