@@ -1,5 +1,5 @@
 use std::env;
-use std::process::Command;
+use std::process::{Command, Stdio};
 
 pub fn check_git_installed() -> Result<String, String> {
     let output = Command::new("git")
@@ -55,16 +55,18 @@ pub fn git_commit(msg: String) -> Result<String, String> {
 }
 
 pub fn git_push(username: &str, password: &str) -> Result<String, String> {
-    let output = Command::new("git")
+    let mut git_cmd = Command::new("git");
+    git_cmd
         .arg("push")
         .arg("-u")
         .env(
             "GIT_SSH_COMMAND",
             format!("ssh -o BatchMode=yes -o Passphrase={}", password),
         )
-        .output()
-        .expect("Failed to execute command");
+        .stdout(Stdio::piped())
+        .stderr(Stdio::piped());
 
+    let output = git_cmd.output().expect("Failed to execute command");
     if output.status.success() {
         let stdout = String::from_utf8_lossy(&output.stdout).to_string();
         Ok(stdout)
