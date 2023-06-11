@@ -59,7 +59,7 @@ pub fn git_push(username: &str, password: &str) -> Result<String, String> {
         .arg("push")
         .arg("-u")
         .arg(format!(
-            "{}:{}git@github.com:MohsenBg/worker.git",
+            "https:{}:{}//github.com/MohsenBg/worker.git",
             username, password
         ))
         .output()
