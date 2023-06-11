@@ -67,6 +67,7 @@ pub fn git_push(username: &str, password: &str) -> Result<String, String> {
         .stderr(Stdio::piped());
 
     let output = git_cmd.output().expect("Failed to execute command");
+
     if output.status.success() {
         let stdout = String::from_utf8_lossy(&output.stdout).to_string();
         Ok(stdout)
