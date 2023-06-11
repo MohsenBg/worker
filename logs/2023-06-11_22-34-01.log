@@ -1,0 +1,488 @@
+Uptime: 0 days, 1 hours, 59 minutes, 47 seconds
+
+CPU Information:
+Name: cpu0
+Brand: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz
+Frequency: 3600 MHz
+Vendor ID: GenuineIntel
+Cpu usage: 44.444447%
+
+Name: cpu1
+Brand: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz
+Frequency: 3599 MHz
+Vendor ID: GenuineIntel
+Cpu usage: 55.555557%
+
+Name: cpu2
+Brand: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz
+Frequency: 3600 MHz
+Vendor ID: GenuineIntel
+Cpu usage: 57.14286%
+
+Name: cpu3
+Brand: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz
+Frequency: 3600 MHz
+Vendor ID: GenuineIntel
+Cpu usage: 55.555557%
+
+Name: cpu4
+Brand: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz
+Frequency: 3599 MHz
+Vendor ID: GenuineIntel
+Cpu usage: 55.555557%
+
+Name: cpu5
+Brand: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz
+Frequency: 3599 MHz
+Vendor ID: GenuineIntel
+Cpu usage: 50%
+
+
+Memory Information
+Total RAM: 16582172 bytes
+Available RAM: 13093642 bytes
+Used RAM: 3488530 bytes
+Disk Information:
+
+Device: SSD
+Type: SSD
+Total Space: 256625344512 bytes
+Available Space: 162779451392 bytes
+
+Device: SSD
+Type: SSD
+Total Space: 256625344512 bytes
+Available Space: 162779451392 bytes
+
+Device: SSD
+Type: SSD
+Total Space: 1020702720 bytes
+Available Space: 643936256 bytes
+
+Device: SSD
+Type: SSD
+Total Space: 100663296 bytes
+Available Space: 53649408 bytes
+
+
+Loaded Modules:
+Name: zram
+Size: 32768
+Used By: []
+
+Name: snd_hwdep
+Size: 20480
+Used By: ["snd_hda_codec"]
+
+Name: iTCO_wdt
+Size: 16384
+Used By: []
+
+Name: crc32c_intel
+Size: 24576
+Used By: []
+
+Name: polyval_clmulni
+Size: 16384
+Used By: []
+
+Name: drm_buddy
+Size: 20480
+Used By: ["i915"]
+
+Name: i2c_algo_bit
+Size: 20480
+Used By: ["i915"]
+
+Name: nvme
+Size: 65536
+Used By: []
+
+Name: e1000e
+Size: 372736
+Used By: []
+
+Name: crc32_pclmul
+Size: 16384
+Used By: []
+
+Name: wmi_bmof
+Size: 16384
+Used By: []
+
+Name: serio_raw
+Size: 20480
+Used By: []
+
+Name: ttm
+Size: 102400
+Used By: ["i915"]
+
+Name: snd_hda_codec_realtek
+Size: 192512
+Used By: []
+
+Name: snd
+Size: 143360
+Used By: ["snd_sof", "snd_hda_codec_hdmi", "snd_hda_codec_realtek", "snd_hda_codec_generic", "snd_soc_core", "snd_compress", "snd_hda_intel", "snd_hda_codec", "snd_hwdep", "snd_seq", "snd_seq_device", "snd_pcm", "snd_timer"]
+
+Name: intel_tcc_cooling
+Size: 16384
+Used By: []
+
+Name: vfat
+Size: 24576
+Used By: []
+
+Name: soundwire_intel
+Size: 61440
+Used By: ["snd_sof_intel_hda_common"]
+
+Name: snd_soc_skl
+Size: 241664
+Used By: []
+
+Name: mei_hdcp
+Size: 28672
+Used By: []
+
+Name: intel_pmc_bxt
+Size: 16384
+Used By: ["iTCO_wdt"]
+
+Name: snd_sof_intel_hda
+Size: 24576
+Used By: ["snd_sof_intel_hda_common"]
+
+Name: acpi_tad
+Size: 20480
+Used By: []
+
+Name: snd_hrtimer
+Size: 16384
+Used By: []
+
+Name: snd_intel_sdw_acpi
+Size: 20480
+Used By: ["snd_sof_intel_hda_common", "snd_intel_dspcfg"]
+
+Name: cec
+Size: 86016
+Used By: ["i915", "drm_display_helper"]
+
+Name: snd_seq_device
+Size: 16384
+Used By: ["snd_seq"]
+
+Name: snd_seq
+Size: 106496
+Used By: ["snd_seq_dummy"]
+
+Name: snd_soc_hdac_hda
+Size: 28672
+Used By: ["snd_sof_intel_hda_common", "snd_soc_skl"]
+
+Name: sha512_ssse3
+Size: 49152
+Used By: []
+
+Name: wmi
+Size: 45056
+Used By: ["asus_wmi", "mxm_wmi", "wmi_bmof", "video"]
+
+Name: mei_me
+Size: 61440
+Used By: []
+
+Name: nvme_common
+Size: 24576
+Used By: ["nvme_core"]
+
+Name: ip6_tables
+Size: 40960
+Used By: []
+
+Name: mxm_wmi
+Size: 16384
+Used By: []
+
+Name: ledtrig_audio
+Size: 16384
+Used By: ["snd_hda_codec_generic", "asus_wmi"]
+
+Name: snd_sof_pci
+Size: 24576
+Used By: ["snd_sof_pci_intel_cnl", "snd_sof_intel_hda_common"]
+
+Name: x86_pkg_temp_thermal
+Size: 20480
+Used By: []
+
+Name: eeepc_wmi
+Size: 16384
+Used By: []
+
+Name: soundwire_cadence
+Size: 45056
+Used By: ["soundwire_intel"]
+
+Name: snd_hda_codec_hdmi
+Size: 94208
+Used By: []
+
+Name: i2c_i801
+Size: 40960
+Used By: []
+
+Name: fuse
+Size: 208896
+Used By: []
+
+Name: snd_hda_codec
+Size: 217088
+Used By: ["snd_sof_intel_hda", "snd_hda_codec_hdmi", "snd_soc_skl", "snd_soc_hdac_hda", "snd_hda_codec_realtek", "snd_hda_codec_generic", "snd_hda_intel"]
+
+Name: asus_wmi
+Size: 77824
+Used By: ["eeepc_wmi"]
+
+Name: snd_hda_ext_core
+Size: 36864
+Used By: ["snd_sof_intel_hda_common", "snd_sof_intel_hda", "snd_soc_skl", "snd_soc_hdac_hda"]
+
+Name: intel_rapl_common
+Size: 36864
+Used By: ["intel_rapl_msr"]
+
+Name: snd_sof
+Size: 389120
+Used By: ["snd_sof_intel_hda_common", "snd_sof_intel_hda", "snd_sof_pci"]
+
+Name: ee1004
+Size: 20480
+Used By: []
+
+Name: snd_soc_acpi_intel_match
+Size: 73728
+Used By: ["snd_sof_pci_intel_cnl", "snd_sof_intel_hda_common", "snd_soc_skl"]
+
+Name: snd_pcm_dmaengine
+Size: 20480
+Used By: ["snd_soc_core"]
+
+Name: cdc_ether
+Size: 24576
+Used By: ["rndis_host"]
+
+Name: snd_soc_core
+Size: 434176
+Used By: ["snd_sof_intel_hda_common", "soundwire_intel", "snd_sof", "snd_soc_skl", "snd_soc_hdac_hda"]
+
+Name: platform_profile
+Size: 16384
+Used By: ["asus_wmi"]
+
+Name: i915
+Size: 3850240
+Used By: []
+
+Name: drm_display_helper
+Size: 208896
+Used By: ["i915"]
+
+Name: snd_sof_xtensa_dsp
+Size: 20480
+Used By: ["snd_sof_intel_hda_common"]
+
+Name: polyval_generic
+Size: 16384
+Used By: ["polyval_clmulni"]
+
+Name: ghash_clmulni_intel
+Size: 16384
+Used By: []
+
+Name: nvme_core
+Size: 225280
+Used By: ["nvme"]
+
+Name: video
+Size: 73728
+Used By: ["asus_wmi", "i915"]
+
+Name: rfkill
+Size: 40960
+Used By: ["asus_wmi"]
+
+Name: iTCO_vendor_support
+Size: 16384
+Used By: ["iTCO_wdt"]
+
+Name: ip_tables
+Size: 40960
+Used By: []
+
+Name: intel_rapl_msr
+Size: 20480
+Used By: []
+
+Name: joydev
+Size: 28672
+Used By: []
+
+Name: fat
+Size: 102400
+Used By: ["vfat"]
+
+Name: soundcore
+Size: 16384
+Used By: ["snd"]
+
+Name: crct10dif_pclmul
+Size: 16384
+Used By: []
+
+Name: snd_pcm
+Size: 180224
+Used By: ["snd_sof_intel_hda_common", "soundwire_intel", "snd_sof", "snd_sof_utils", "snd_hda_codec_hdmi", "snd_soc_skl", "snd_soc_core", "snd_compress", "snd_pcm_dmaengine", "snd_hda_intel", "snd_hda_codec", "snd_hda_core"]
+
+Name: sunrpc
+Size: 815104
+Used By: []
+
+Name: soundwire_generic_allocation
+Size: 16384
+Used By: ["soundwire_intel"]
+
+Name: snd_sof_intel_hda_common
+Size: 229376
+Used By: ["snd_sof_pci_intel_cnl"]
+
+Name: snd_hda_core
+Size: 139264
+Used By: ["snd_sof_intel_hda_common", "snd_sof_intel_hda", "snd_hda_codec_hdmi", "snd_soc_skl", "snd_soc_hdac_hda", "snd_hda_ext_core", "snd_hda_codec_realtek", "snd_hda_codec_generic", "snd_hda_intel", "snd_hda_codec"]
+
+Name: loop
+Size: 40960
+Used By: []
+
+Name: soundwire_bus
+Size: 135168
+Used By: ["soundwire_intel", "soundwire_generic_allocation", "soundwire_cadence"]
+
+Name: usbnet
+Size: 61440
+Used By: ["rndis_host", "cdc_ether"]
+
+Name: snd_soc_sst_dsp
+Size: 45056
+Used By: ["snd_soc_skl"]
+
+Name: snd_sof_utils
+Size: 20480
+Used By: ["snd_sof"]
+
+Name: mii
+Size: 16384
+Used By: ["usbnet"]
+
+Name: cdc_acm
+Size: 49152
+Used By: []
+
+Name: qrtr
+Size: 57344
+Used By: []
+
+Name: binfmt_misc
+Size: 28672
+Used By: []
+
+Name: snd_seq_dummy
+Size: 16384
+Used By: []
+
+Name: coretemp
+Size: 20480
+Used By: []
+
+Name: rapl
+Size: 24576
+Used By: []
+
+Name: snd_timer
+Size: 53248
+Used By: ["snd_hrtimer", "snd_seq", "snd_pcm"]
+
+Name: snd_soc_sst_ipc
+Size: 20480
+Used By: ["snd_soc_skl"]
+
+Name: intel_uncore
+Size: 258048
+Used By: []
+
+Name: i2c_smbus
+Size: 20480
+Used By: ["i2c_i801"]
+
+Name: snd_intel_dspcfg
+Size: 36864
+Used By: ["snd_sof_intel_hda_common", "snd_sof", "snd_soc_skl", "snd_hda_intel"]
+
+Name: snd_sof_pci_intel_cnl
+Size: 16384
+Used By: []
+
+Name: ac97_bus
+Size: 16384
+Used By: ["snd_soc_core"]
+
+Name: snd_soc_acpi
+Size: 16384
+Used By: ["snd_sof_intel_hda_common", "snd_soc_skl", "snd_soc_acpi_intel_match"]
+
+Name: rndis_host
+Size: 24576
+Used By: []
+
+Name: intel_cstate
+Size: 24576
+Used By: []
+
+Name: pcspkr
+Size: 16384
+Used By: []
+
+Name: acpi_pad
+Size: 184320
+Used By: []
+
+Name: sparse_keymap
+Size: 16384
+Used By: ["asus_wmi"]
+
+Name: mei_pxp
+Size: 20480
+Used By: []
+
+Name: intel_powerclamp
+Size: 16384
+Used By: []
+
+Name: snd_compress
+Size: 32768
+Used By: ["snd_soc_core"]
+
+Name: snd_hda_intel
+Size: 65536
+Used By: []
+
+Name: snd_hda_codec_generic
+Size: 114688
+Used By: ["snd_hda_codec_realtek"]
+
+Name: mei
+Size: 192512
+Used By: ["mei_pxp", "mei_hdcp", "mei_me"]
+
