@@ -55,18 +55,13 @@ pub fn git_commit(msg: String) -> Result<String, String> {
 }
 
 pub fn git_push(username: &str, password: &str) -> Result<String, String> {
-    let mut git_cmd = Command::new("git");
-    git_cmd
+    let output = Command::new("git")
         .arg("push")
-        .arg("-u")
-        .env(
-            "GIT_SSH_COMMAND",
-            format!("ssh -o BatchMode=yes -o Passphrase={}", password),
-        )
-        .stdout(Stdio::piped())
-        .stderr(Stdio::piped());
-
-    let output = git_cmd.output().expect("Failed to execute command");
+        .env("GIT_ASKPASS", "echo") // Disable any password prompts
+        .env("GIT_USERNAME", username)
+        .env("GIT_PASSWORD", password)
+        .output()
+        .expect("Failed to execute command");
 
     if output.status.success() {
         let stdout = String::from_utf8_lossy(&output.stdout).to_string();
