@@ -35,8 +35,8 @@ fn main() {
         remote_name: String::from("origin"),
         email: String::from("moh.1380.1393@gmail.com"),
         name: String::from("MohsenBg"),
-        public_key_path: PathBuf::from("~/.ssh/worker_ssh.pub"),
-        private_key_path: PathBuf::from("~/.ssh/worker_ssh"),
+        public_key_path: PathBuf::from("/home/Bagheri/.ssh/worker_ssh.pub"),
+        private_key_path: PathBuf::from("/home/Bagheri/.ssh/worker_ssh"),
         passphrase: String::from(""),
     };
 
