@@ -48,7 +48,7 @@ pub fn send_to_git_hub(git_option: GitOptions) -> Result<(), git2::Error> {
 
     let mut options = git2::PushOptions::new();
     options.remote_callbacks(callbacks);
-    remote.push(&["refs/heads/master"], Some(&mut options))?;
+    remote.push(&["refs/heads/main"], Some(&mut options))?;
 
     Ok(())
 }
